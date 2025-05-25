@@ -14,6 +14,8 @@ import Programs from "../components/Programs";
 import Banner from "../components/Banner";
 import Partners from "../components/Partners";
 import { AnimatedSection } from "../components/AnimatedSection";
+import WhyUs from "../components/WhyUs";
+import StickyNavbar from "../components/StickyNav";
 
 const HomePage = () => {
   const navcolor = "bg-transparent";
@@ -25,6 +27,7 @@ const HomePage = () => {
           <AnimatedSection trans="easeIn">
             <Navbar navcolor={navcolor} />
           </AnimatedSection>
+            <StickyNavbar navcolor={navcolor} />
 
           <Hero />
 
@@ -32,6 +35,9 @@ const HomePage = () => {
           {/* <Stats /> */}
           <AnimatedSection trans="easeIn">
             <Services />
+          </AnimatedSection>
+          <AnimatedSection trans="easeIn">
+            <WhyUs />
           </AnimatedSection>
 
           <AnimatedSection trans="easeOut">

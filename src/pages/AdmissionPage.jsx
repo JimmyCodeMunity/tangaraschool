@@ -1,12 +1,13 @@
 import React from "react";
 import Banner from "../components/Banner";
 import Navbar from "../components/Navbar";
-import About from "../components/About";
 import Footer from "../components/Footer";
 import { AnimatedSection } from "../components/AnimatedSection";
+import HowTo from "../components/HowTo";
+import Policy from "../components/Policy";
 import StickyNavbar from "../components/StickyNav";
 
-const AboutusPage = () => {
+const AdmissionPage = () => {
   const navcolor = "bg-black";
   return (
     <div>
@@ -17,12 +18,11 @@ const AboutusPage = () => {
         </AnimatedSection>
         <StickyNavbar/>
       </div>
-      {/* <AnimatedSection trans="easeIn"> */}
-        <About />
-      {/* </AnimatedSection> */}
+      <HowTo/>
+      <Policy/>
       <Footer />
     </div>
   );
 };
 
-export default AboutusPage;
+export default AdmissionPage;

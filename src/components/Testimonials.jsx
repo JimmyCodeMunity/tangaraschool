@@ -7,7 +7,7 @@ const Testimonials = () => {
                 <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                     <div className="flex flex-col items-center">
                         <div className="text-center">
-                            <p className="text-lg font-medium text-gray-600 font-pj">2,157 people have said how good Mentheal is</p>
+                            <p className="text-lg font-medium text-gray-600 font-pj">2,157 people have said how good Tangara School is</p>
                             <h2 className="mt-4 text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl font-pj">Our happy clients say about us</h2>
                         </div>
 
@@ -55,7 +55,7 @@ const Testimonials = () => {
                                             </div>
 
                                             <blockquote className="flex-1 mt-8">
-                                                <p className="text-lg leading-relaxed text-gray-900 font-pj">"Mentheal has been a game-changer for me. Their resources are insightful, approachable, and have truly helped me prioritize my mental health."</p>
+                                                <p className="text-lg leading-relaxed text-gray-900 font-pj">"Tangara School has been a game-changer for me. Their resources are insightful, approachable, and have truly helped me prioritize my kids education."</p>
                                             </blockquote>
                                         </div>
 
@@ -101,7 +101,7 @@ const Testimonials = () => {
                                             </div>
 
                                             <blockquote className="flex-1 mt-8">
-                                                <p className="text-lg leading-relaxed text-gray-900 font-pj">"I love how Mentheal makes mental health awareness accessible to everyone. Their dedication to breaking the stigma is inspiring!"</p>
+                                                <p className="text-lg leading-relaxed text-gray-900 font-pj">"I love how Tangara School makes education accessible to everyone. Their dedication to breaking misinformation is inspiring!"</p>
                                             </blockquote>
                                         </div>
 
@@ -147,7 +147,7 @@ const Testimonials = () => {
                                             </div>
 
                                             <blockquote className="flex-1 mt-8">
-                                                <p className="text-lg leading-relaxed text-gray-900 font-pj">"Mentheal’s support and tools are empowering. They remind us all that it’s okay to seek help and take care of our mental well-being."</p>
+                                                <p className="text-lg leading-relaxed text-gray-900 font-pj">"Tangara School’s support and tools are empowering. They encourage our kids to loce schooling."</p>
                                             </blockquote>
                                         </div>
 

@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import AccType from '../components/AccType'
 import HowTo from '../components/HowTo'
 import PayMethods from '../components/PayMethods'
+import StickyNavbar from '../components/StickyNav'
 
 const MembershipPage = () => {
     return (
@@ -12,6 +13,7 @@ const MembershipPage = () => {
             <div className="w-full bg-black">
                 <Banner />
                 <Navbar />
+                <StickyNavbar/>
             </div>
             <AccType/>
             <HowTo/>

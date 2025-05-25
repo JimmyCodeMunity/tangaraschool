@@ -62,7 +62,7 @@ const Stats = () => {
 
   return (
     <section id="stats-section" className="py-14 bg-white">
-      <div className="max-w-screen-xl mx-auto px-4 text-gray-600 gap-x-12 items-start justify-between lg:flex md:px-8">
+      <div className="max-w-7xl mx-auto px-4 text-gray-600 gap-x-12 items-start justify-between lg:flex md:px-8">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={controls}

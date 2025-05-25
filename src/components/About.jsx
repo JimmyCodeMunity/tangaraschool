@@ -11,7 +11,7 @@ const About = () => {
               <div class="w-full flex-col justify-center items-start gap-8 flex">
                 <div class="flex-col justify-start lg:items-start items-center gap-4 flex">
                   <h6 class="text-gray-400 text-base font-normal leading-relaxed">
-                    About Mentheal Ventures
+                    About Tangara School
                   </h6>
                   <div class="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
                     <h2 class="text-gray-900 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
@@ -29,31 +29,35 @@ const About = () => {
                   <div class="w-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
                     <div class="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
                       <h4 class="text-gray-900 text-2xl font-bold font-manrope leading-9">
-                        Our Vision
+                        Our Motto
                       </h4>
                       <p class="text-gray-500 text-base font-normal leading-relaxed">
-                        A society where people embrace mental well-being.
+                        Fostering innovation, creativity & talent to nurture a
+                        million dreams.
                       </p>
                     </div>
                     <div class="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
                       <h4 class="text-gray-900 text-2xl font-bold font-manrope leading-9">
-                        Our Mission
+                        Our Vision
                       </h4>
                       <p class="text-gray-500 text-base font-normal leading-relaxed">
-                        To promote equitable access to quality mental healthcare
-                        for all.
+                        We envision a next generation of self-driven, innovative
+                        and solution oriented individuals, responsible for own
+                        actions to enable a life of health and wellness for self
+                        and others..
                       </p>
                     </div>
                   </div>
                   <div class="w-full h-full justify-start items-center gap-8 grid md:grid-cols-1 grid-cols-1">
                     <div class="w-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
                       <h4 class="text-gray-900 text-2xl font-bold font-manrope leading-9">
-                        Our Goal
+                        Our Mission
                       </h4>
                       <p class="text-gray-500 text-base font-normal leading-relaxed">
-                        To promote the best interest of clients and those
-                        actually or potentially making use of mental health
-                        services{" "}
+                        To help children develop and flourish holistically in a
+                        happy, supportive and secure environment and prepare
+                        them to become productive, responsible and ethical
+                        global citizens.{" "}
                       </p>
                     </div>
                   </div>
@@ -111,7 +115,7 @@ const About = () => {
             <div className="w-full">
               <img
                 class="lg:mx-0 mx-auto h-full rounded-3xl object-cover"
-                src="../images/mypic.jpg"
+                src="../images/team.jpg"
                 alt="about Us image"
               />
             </div>

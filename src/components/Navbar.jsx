@@ -40,7 +40,7 @@ const Navbar = ({ navcolor }) => {
 
                 {/* Mobile Navigation */}
                 {isOpen && (
-                    <div className="md:hidden bg-white absolute top-24 w-[200px] right-14 z-10 rounded-sm p-3">
+                    <div className="md:hidden bg-white absolute top-32 w-[200px] right-14 z-10 rounded-sm p-3">
                         <ul className="flex flex-col space-y-2 items-start">
                             {navlinks.map((navitem) => (
                                 <li key={navitem.path} className={`${location.pathname === navitem.path ? "text-green-500" : "text-black"} text-sm`}>
