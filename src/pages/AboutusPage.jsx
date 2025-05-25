@@ -15,9 +15,9 @@ const AboutusPage = () => {
           <Navbar navcolor={navcolor} />
         </AnimatedSection>
       </div>
-      <AnimatedSection trans="easeOut">
+      {/* <AnimatedSection trans="easeIn"> */}
         <About />
-      </AnimatedSection>
+      {/* </AnimatedSection> */}
       <Footer />
     </div>
   );
