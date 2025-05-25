@@ -29,8 +29,9 @@ const StickyNavbar = () => {
       className="fixed top-0 w-full bg-black shadow-md z-50"
     >
       <div className="flex justify-between items-center max-w-7xl mx-auto px-6 py-3">
-        <Link to="/" className="text-white text-lg font-semibold">
-          Tangara School
+        <Link to="/" className="text-white flex items-center text-lg font-semibold">
+        <img src="../images/logo.png" className="h-16 w-16" alt="" />
+          Tangara Schools
         </Link>
 
         {/* Desktop Navigation */}
