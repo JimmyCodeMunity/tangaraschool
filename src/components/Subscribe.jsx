@@ -3,7 +3,7 @@ import React from 'react'
 const Subscribe = () => {
     return (
         <div className="bg-white">
-            <div class="relative bg-gradient-to-r from-blue-500 via-gray-900 to-amber-300">
+            <div class="relative bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-indigo-50 via-green-500 to-black">
                 <div class="absolute inset-x-0 bottom-0">
                     <svg viewBox="0 0 224 12" fill="currentColor" class="w-full -mb-1 text-white" preserveAspectRatio="none">
                         <path
@@ -16,8 +16,8 @@ const Subscribe = () => {
                         <h2 class="mb-6 font-sans text-3xl text-center font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
                             Subscribe to our newsletter
                         </h2>
-                        <p class="mb-6 text-base text-indigo-200 md:text-lg">
-                        "Stay connected with Mentheal! Subscribe to our newsletter for expert tips, inspiring stories, and updates on mental health awareness. Be the first to know about our latest resources, events, and tools to support your mental well-being."
+                        <p class="mb-6 text-black md:text-lg">
+                        "Stay connected with Tangara School! Subscribe to our newsletter for expert tips, inspiring stories, and updates on mental health awareness. Be the first to know about our latest resources, events, and tools to support your mental well-being."
                         </p>
                         <form class="flex flex-col items-center w-full mb-4 md:flex-row md:px-16">
                             <input
@@ -32,7 +32,7 @@ const Subscribe = () => {
                             </a>
                         </form>
                         <p class="max-w-md mb-10 text-xs tracking-wide text-indigo-100 sm:text-sm sm:mx-auto md:mb-16">
-                            Let Mentheal Ventures get through with you 😇  .
+                            Let Tangara School get through with you 😇  .
                         </p>
                         <a href="/" aria-label="Scroll down"
                             class="flex items-center justify-center w-10 h-10 mx-auto text-white duration-300 transform border border-gray-400 rounded-full hover:text-teal-accent-400 hover:border-teal-accent-400 hover:shadow hover:scale-110">

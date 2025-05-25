@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
+import { CircleX } from "lucide-react";
 
 const Stats = () => {
   const [isInView, setIsInView] = useState(false);
@@ -76,23 +77,78 @@ const Stats = () => {
         <div className="mt-6 gap-12 sm:mt-0 md:flex lg:block">
           <div className="max-w-2xl">
             <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-              We do our best to make customers always happy
+              Welcome Once Again..
             </h3>
             <p className="mt-3 max-w-xl">
-            "At Mentheal, we take pride in empowering our community through mental health awareness and personalized guidance.."
+              "Thank you for your interest in our school. We are delighted to
+              introduce to you, Tangara School Ruiru, a lovely home away from
+              home for children offering great early years and Primary school
+              education, extra curriculum activities and personal development
+              initiatives that enhance individual and collective children
+              growth. Our delight is to guide children to become successful
+              life-long learners, thinkers, innovators and responsible global
+              citizens by supporting and encouraging them to explore their
+              potential and stimulate their curiosity. Our amiable school
+              facilities designed creatively......"
             </p>
-          </div>
-          <div className="flex-none mt-6 md:mt-0 lg:mt-6">
-            <ul className="inline-grid gap-y-8 gap-x-14 grid-cols-2">
-              {stats.map((item, idx) => (
-                <li key={idx}>
-                  <h4 className="text-4xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500  to-amber-300 font-semibold">
-                    {item.data}
-                  </h4>
-                  <p className="mt-3 font-medium">{item.title}</p>
-                </li>
-              ))}
-            </ul>
+
+            {/* Open the modal using document.getElementById('ID').showModal() method */}
+            <button
+              className="btn"
+              onClick={() => document.getElementById("karibu").showModal()}
+            >
+              Read More
+            </button>
+            <dialog
+              id="karibu"
+              className="modal bg-black text-white w-[550px] rounded-xl p-4"
+            >
+              <div className="modal-box">
+                <div className="absolute top-5 right-10">
+                  <form method="dialog" className="modal-backdrop">
+                    <button>
+                      <CircleX size={30} color="white" />
+                    </button>
+                  </form>
+                </div>
+                <h3 className="font-bold text-lg text-green-500">Welcome</h3>
+                <p className="py-4">Press ESC key or click outside to close</p>
+                <p className="text-white">
+                  Thank you for your interest in our school. We are delighted to
+                  introduce to you, Tangara School Ruiru, a lovely home away
+                  from home for children offering great early years and Primary
+                  school education, extra curriculum activities and personal
+                  development initiatives that enhance individual and collective
+                  children growth. Our delight is to guide children to become
+                  successful life-long learners, thinkers, innovators and
+                  responsible global citizens by supporting and encouraging them
+                  to explore their potential and stimulate their curiosity. Our
+                  amiable school facilities designed creatively to enable our
+                  children to enjoy learning and develop interests and talents.
+                  Being in a metropolitan area, we embrace an abundance of
+                  cultures, traditions and celebrations to celebrate diversity
+                  and inclusivity. We celebrate each child’s individual
+                  uniqueness, potential, possibilities and capabilities and
+                  support their intellectual, emotional and social growth and
+                  development in all areas throughout their learning journey.
+                  Since inception in 2022, we have enjoyed warm friendships and
+                  collaborations from our Tangara parents and guardians,
+                  financial supporters, private education trainers, the Ministry
+                  of Education, our community members among other stakeholders.
+                  Together, we have made remarkable progress in supporting the
+                  Government efforts to improve the education outcomes in our
+                  community. Our stakeholders have made contributions ranging
+                  from support supervision, funding, and capacity building among
+                  others; all in support of SDG 4 Inclusive education for all.
+                  To all of you our friends, we say Asante sana. We extend this
+                  call to you to collaborate with us by supporting our
+                  individual programs or if a parent enrolling your child to be
+                  part of this wholesome educational experience, which
+                  identifies and nurtures a million dreams. Karibu, Winifred
+                  Mutuku, Ms.
+                </p>
+              </div>
+            </dialog>
           </div>
         </div>
       </div>
